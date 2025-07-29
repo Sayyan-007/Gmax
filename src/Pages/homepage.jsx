@@ -1,7 +1,11 @@
+import Hero from "../Components/hero"
+import Navbar from "../Components/navbar"
+
 const Homepage=()=>{
     return(
         <div>
-            <h1 className="">wqwe</h1>
+            <Navbar/>
+            <Hero/>
         </div>
     )
 }
