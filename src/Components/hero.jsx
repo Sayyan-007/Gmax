@@ -15,8 +15,7 @@ const Hero = () => {
                     <button className="p-2 px-4 border border-0" style={{color:"#906E50"}}>ABOUT US</button>
                 </div>
                 <div className="col-md-6 w-0 mw-100" >
-                    <img src="/image_here.png"  alt="" className=" mw-100"/>
-
+                    IMAGE
                 </div>
             </div>
             </div>
