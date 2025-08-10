@@ -4,7 +4,7 @@ import { FaInstagram, FaSquareInstagram } from "react-icons/fa6"
 const Footter=()=>{
     return(
         <div className="container-fluid py-4" style={{backgroundColor:"#080A0B"}}>
-            <div className="container">
+            <div className="container py-4">
                 <div className="row text-light">
                     <div className="col-lg-3 col-md-6">
                         <h1 className="fw-bolder">MGAX</h1>
@@ -12,7 +12,7 @@ const Footter=()=>{
                     <div className="col-lg-3 col-md-6">s</div>
                     
                     <div className="col-lg-3 col-md-6">
-                        <h4>Contact Us</h4>
+                        <h4 className="mt-3">Contact Us</h4>
                         <div className="d-flex align-items-center mt-4">
                             <div>
                                 <img src="/phone.png" className="mw-100" alt="" />
@@ -42,7 +42,7 @@ const Footter=()=>{
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
-                        <h4>Social Media</h4>
+                        <h4 className="mt-3">Social Media</h4>
                         <div className="d-flex align-items-center mt-4">
                             <div>
                                 <FaFacebook className="fs-4"/>

@@ -2,11 +2,11 @@ const Experience = () => {
     return (
         <div className="container-fluid py-5">
             <div className="container">
-                <div className="row">
-                    <div className="col-lg-6">
-                        IMAGE
+                <div className="row align-items-center py-3">
+                    <div className="col-md-6">
+                        <img src="/hero page 01.jpg" className="rounded-2 mw-100" style={{width:"500px"}} alt="" />
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-md-6">
                         <p style={{ color: "#906E50" }} className="m-0">Welcome To MGAX</p>
                         <h2 className="fw-bold">Interior Design with <br />
                             Different Approach</h2>
