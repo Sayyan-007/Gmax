@@ -1,16 +1,24 @@
-import { FaFacebook, FaInstagramSquare } from "react-icons/fa"
-import { FaInstagram, FaSquareInstagram } from "react-icons/fa6"
+import { FaFacebook, FaHome, FaInstagramSquare, FaLocationArrow } from "react-icons/fa"
+import { FaInstagram, FaPhotoFilm, FaSquareInstagram } from "react-icons/fa6"
+import { Link } from "react-router-dom"
 
-const Footter=()=>{
-    return(
-        <div className="container-fluid py-4" style={{backgroundColor:"#080A0B"}}>
+const Footter = () => {
+    return (
+        <div className="container-fluid py-4" style={{ backgroundColor: "#080A0B" }}>
             <div className="container py-4">
                 <div className="row text-light">
                     <div className="col-lg-3 col-md-6">
                         <h1 className="fw-bolder">MGAX</h1>
                     </div>
-                    <div className="col-lg-3 col-md-6">s</div>
-                    
+                    <div className="col-lg-3 col-md-6">
+                        <h4 className="mt-3">Quick Links</h4>
+                        <div className="d-flex mt-4 flex-column gap-2">
+                            <Link className="nav-link fs-5" to='/'> <FaHome className="mb-1"/> &nbsp; Home</Link>
+                            <Link className="nav-link fs-5"><FaPhotoFilm className="mb-1"/> &nbsp; Gallery</Link>
+                            <Link className="nav-link fs-5" to='/contactus'><FaLocationArrow/> &nbsp; Contact</Link>
+                        </div>
+                    </div>
+
                     <div className="col-lg-3 col-md-6">
                         <h4 className="mt-3">Contact Us</h4>
                         <div className="d-flex align-items-center mt-4">
@@ -45,7 +53,7 @@ const Footter=()=>{
                         <h4 className="mt-3">Social Media</h4>
                         <div className="d-flex align-items-center mt-4">
                             <div>
-                                <FaFacebook className="fs-4"/>
+                                <FaFacebook className="fs-4" />
                             </div>
                             <div className="ms-3">
                                 <p className="m-0">FaceBook</p>
@@ -54,7 +62,7 @@ const Footter=()=>{
                         </div>
                         <div className="d-flex align-items-center mt-4">
                             <div>
-                                <FaSquareInstagram className="fs-4"/>
+                                <FaSquareInstagram className="fs-4" />
                             </div>
                             <div className="ms-3">
                                 <p className="m-0">Instagram</p>
