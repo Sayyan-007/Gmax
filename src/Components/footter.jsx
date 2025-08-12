@@ -11,16 +11,16 @@ const Footter = () => {
                         <h1 className="fw-bolder">MGAX</h1>
                     </div>
                     <div className="col-lg-3 col-md-6">
-                        <h4 className="mt-3">Quick Links</h4>
+                        <h4 className="mt-3 fw-bold">Quick Links</h4>
                         <div className="d-flex mt-4 flex-column gap-2">
                             <Link className="nav-link fs-5" to='/'> <FaHome className="mb-1"/> &nbsp; Home</Link>
-                            <Link className="nav-link fs-5"><FaPhotoFilm className="mb-1"/> &nbsp; Gallery</Link>
+                            <Link className="nav-link fs-5" to='/gallery'><FaPhotoFilm className="mb-1"/> &nbsp; Gallery</Link>
                             <Link className="nav-link fs-5" to='/contactus'><FaLocationArrow/> &nbsp; Contact</Link>
                         </div>
                     </div>
 
                     <div className="col-lg-3 col-md-6">
-                        <h4 className="mt-3">Contact Us</h4>
+                        <h4 className="mt-3 fw-bold">Contact Us</h4>
                         <div className="d-flex align-items-center mt-4">
                             <div>
                                 <img src="/phone.png" className="mw-100" alt="" />
@@ -50,7 +50,7 @@ const Footter = () => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
-                        <h4 className="mt-3">Social Media</h4>
+                        <h4 className="mt-3 fw-bold">Social Media</h4>
                         <div className="d-flex align-items-center mt-4">
                             <div>
                                 <FaFacebook className="fs-4" />
