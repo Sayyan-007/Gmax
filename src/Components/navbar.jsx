@@ -31,7 +31,7 @@ const Navbar = () => {
                             <Link className='text-decoration-none fw-bold' style={{color:text}} to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className='text-decoration-none fw-bold' style={{color:text}} to="/">Gallery</Link>
+                            <Link className='text-decoration-none fw-bold' style={{color:text}} to="/gallery">Gallery</Link>
                         </li>
                         <li className="nav-item">
                             <Link className='text-decoration-none fw-bold' style={{color:text}} to="/contactus">Contact Us</Link>
