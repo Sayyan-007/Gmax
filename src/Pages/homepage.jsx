@@ -10,7 +10,7 @@ import Whychoose from "../Components/whychoose"
 
 const Homepage=()=>{
     return(
-        <div>
+        <div className="mainscroll-container">
             <Navbar/>
             <Hero/>
             <Experience/>

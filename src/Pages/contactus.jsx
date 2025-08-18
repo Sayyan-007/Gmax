@@ -7,7 +7,7 @@ const Contactus=()=>{
 
     
     return(
-        <div>
+        <div className="mainscroll-container">
             <Navbar/>
             <Contacthero/>
             <Map/>

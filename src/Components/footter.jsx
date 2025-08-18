@@ -23,7 +23,7 @@ const Footter = () => {
                         <h4 className="mt-3 fw-bold">Contact Us</h4>
                         <div className="d-flex align-items-center mt-4">
                             <div>
-                                <img src="/phone.png" className="mw-100" alt="" />
+                                <img src="/phone.webp" className="mw-100" alt="" />
                             </div>
                             <div className="ms-3">
                                 <p className="m-0">Phone Number</p>
@@ -32,7 +32,7 @@ const Footter = () => {
                         </div>
                         <div className="d-flex align-items-center mt-4">
                             <div>
-                                <img src="/mail.png" className="mw-100" alt="" />
+                                <img src="/mail.webp" className="mw-100" alt="" />
                             </div>
                             <div className="ms-3">
                                 <p className="m-0">Email Address</p>
@@ -41,7 +41,7 @@ const Footter = () => {
                         </div>
                         <div className="d-flex align-items-center mt-4">
                             <div>
-                                <img src="/map.png" className="mw-100" alt="" />
+                                <img src="/map.webp" className="mw-100" alt="" />
                             </div>
                             <div className="ms-3">
                                 <p className="m-0">Location</p>

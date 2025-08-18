@@ -5,7 +5,7 @@ import Navbar from "../Components/navbar"
 
 const Gallery=()=>{
     return(
-        <div>
+        <div className="mainscroll-container">
             <Navbar/>
             <Galleryhero/>
             <Images/>

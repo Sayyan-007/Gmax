@@ -10,7 +10,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-md p-0">
             <div className="container-fluid  p-3" style={{background:bgc,color:text}}>
                 <a className="navbar-brand fw-bold ms-5" style={{color:text}} href="#">
-                    <img src="/icon.png" style={{width:"350px"}} className='text-center mw-100' alt="" />
+                    <img src="/icon1.webp" style={{width:"100px"}} className='text-center mw-100' alt="" />
                 </a>
                 <button
                     className="navbar-toggler"
@@ -21,12 +21,12 @@ const Navbar = () => {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span className=""><img src="/menu.png" className='my-3' alt="/menu.png" /></span>
+                    <span className=""><img src="/menu.webp" className='my-3' alt="/menu.webp" /></span>
                 </button>
 
                 {/* Links - right */}
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul className="navbar-nav gap-md-5 align-items-cente ms-5 me-5">
+                    <ul className="navbar-nav gap-3 gap-md-5 mt-4 align-items-cente ms-5 me-5">
                         <li className="nav-item">
                             <Link className='text-decoration-none fw-bold' style={{color:text}} to="/">Home</Link>
                         </li>

@@ -1,6 +1,8 @@
+
 .navbar-bg {
   background-image: linear-gradient(to right, #8a5a33, #3d3d3d);
 }
+
 .p2{
   color: #767676;
 }
@@ -27,4 +29,23 @@
 
 .scroll-container::-webkit-scrollbar {
   display: none; /* Chrome, Safari */
+}
+.mainscroll-container :: ::-webkit-scrollbar{
+  display: none;
+}
+.mainscroll-container {
+  height: 100vh;         /* make it a scrollable container if you want container scrolling */
+  overflow-y: auto;      /* or overflow: auto / overflow-x: auto for horizontal only */
+  -ms-overflow-style: none; /* IE 10+ */
+  scrollbar-width: none;    /* Firefox */
+}
+
+/* WebKit browsers */
+.mainscroll-container::-webkit-scrollbar {
+  width: 0;
+  height: 0;      /* helpful if horizontal scroll */
+  background: transparent;
+}
+.hovereff:hover{
+ background-color: #8a5a338a;
 }

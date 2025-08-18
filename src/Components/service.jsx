@@ -2,16 +2,16 @@ import { FaArrowRight } from "react-icons/fa"
 
 const Service=()=>{
     return(
-        <div className="container-fluid text-center py-4">
+        <div className="container-fluid text-center py-4" id="service">
             <div className="row">
                 <p style={{ color: "#906E50" }} className="m-0">What We Do</p>
                 <h2 className="fw-bold">The best Services We Provide</h2>
             </div>
-            <div className="container mt-4" style={{ backgroundImage: "url('/servicebg.png')",backgroundSize: 'cover',backgroundPosition: 'center',}}>
+            <div className="container mt-4" style={{ backgroundImage: "url('/servicebg.webp')",backgroundSize: 'cover',backgroundPosition: 'center',}}>
                 <div className="row p-5">
                     <div className="col-lg-4 col-md-6 d-flex gap-3 text-start p-3 ">
                         <div>
-                            <img src="/homeservice.png" alt="" />
+                            <img src="/homeservice.webp" alt="" />
                         </div>
                         <div>
                             <h5 className="fw-bold">Home Interior Design</h5>
@@ -21,7 +21,7 @@ const Service=()=>{
                     </div>
                     <div className="col-lg-4 col-md-6 d-flex gap-3 text-start p-3 ">
                         <div>
-                            <img src="/homeservice.png" alt="" />
+                            <img src="/homeservice.webp" alt="" />
                         </div>
                         <div>
                             <h5 className="fw-bold">Home Exterior Design</h5>
@@ -31,7 +31,7 @@ const Service=()=>{
                     </div>
                     <div className="col-lg-4 col-md-6 d-flex gap-3 text-start p-3 ">
                         <div>
-                            <img src="/3d.png" alt="" />
+                            <img src="/3d.webp" alt="" />
                         </div>
                         <div>
                             <h5 className="fw-bold">2D/3D Design Layout</h5>
@@ -41,7 +41,7 @@ const Service=()=>{
                     </div>
                     <div className="col-lg-4 col-md-6 d-flex gap-3 text-start p-3 ">
                         <div>
-                            <img src="/furniture.png" alt="" />
+                            <img src="/furniture.webp" alt="" />
                         </div>
                         <div>
                             <h5 className="fw-bold">Furniture's Design</h5>
@@ -51,7 +51,7 @@ const Service=()=>{
                     </div>
                     <div className="col-lg-4 col-md-6 d-flex gap-3 text-start p-3 ">
                         <div>
-                            <img src="/modern.png" alt="" />
+                            <img src="/modern.webp" alt="" />
                         </div>
                         <div>
                             <h5 className="fw-bold">Modern Home Interior</h5>
@@ -61,7 +61,7 @@ const Service=()=>{
                     </div>
                     <div className="col-lg-4 col-md-6 d-flex gap-3 text-start p-3 ">
                         <div>
-                            <img src="/modern.png" alt="" />
+                            <img src="/modern.webp" alt="" />
                         </div>
                         <div>
                             <h5 className="fw-bold">Custom Design Plan</h5>

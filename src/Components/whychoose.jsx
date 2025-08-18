@@ -8,7 +8,7 @@ const Whychoose=()=>{
                     <div className="col-lg-6">
                         <div className="d-flex justify-content-between align-items-center">
                             <div>
-                                <img src="/edit.png" className="mw-100" alt="" />
+                                <img src="/edit.webp" className="mw-100" alt="" />
                             </div>
                             <div>
                                 <h3>Modern Design</h3>
@@ -17,7 +17,7 @@ const Whychoose=()=>{
                         </div>
                         <div className="d-flex justify-content-between align-items-center mt-3">
                             <div>
-                                <img src="/Group1.png" className="mw-100" alt="" />
+                                <img src="/Group1.webp" className="mw-100" alt="" />
                             </div>
                             <div>
                                 <h3>Expert Team</h3>
@@ -26,7 +26,7 @@ const Whychoose=()=>{
                         </div>
                         <div className="d-flex justify-content-between align-items-center mt-3">
                             <div>
-                                <img src="/price.png" className="mw-100" alt="" />
+                                <img src="/price.webp" className="mw-100" alt="" />
                             </div>
                             <div>
                                 <h3>Reasonable Price</h3>
