@@ -21,7 +21,7 @@ const Hero = () => {
                             <i className="fw-light"> Innovative <br />
                              Design.</i>
                         </h1>
-                        <p>Welcome to GMAX, crafting timeless interiors that tell your story. Discover <br />
+                        <p>Welcome to MGAX, crafting timeless interiors that tell your story. Discover <br />
                          a world where design meets emotion.</p>
                         <button className="p-2 px-4 border border-0" onClick={scrollToService} style={{color:"#906E50"}}>ABOUT US</button>
                     </div>

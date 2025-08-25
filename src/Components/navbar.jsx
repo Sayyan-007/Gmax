@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-md p-0">
             <div className="container-fluid  p-3" style={{background:bgc,color:text}}>
-                <a className="navbar-brand fw-bold ms-5" style={{color:text}} href="#">
+                <a className="navbar-brand fw-bold ms-0 ms-sm-5" style={{color:text}} href="#">
                     <img src="/icon1.webp" style={{width:"100px"}} className='text-center mw-100' alt="" />
                 </a>
                 <button
@@ -21,7 +21,7 @@ const Navbar = () => {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span className=""><img src="/menu.webp" className='my-3' alt="/menu.webp" /></span>
+                    <span className=""><img src="/menu.webp" style={{width:"40px"}} className='my-3' alt="/menu.webp" /></span>
                 </button>
 
                 {/* Links - right */}

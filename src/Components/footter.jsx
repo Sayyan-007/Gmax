@@ -8,7 +8,7 @@ const Footter = () => {
             <div className="container py-4">
                 <div className="row text-light">
                     <div className="col-lg-3 col-md-6">
-                        <h1 className="fw-bolder">MGAX</h1>
+                        <h1 className="fw-bolder ">MGAX</h1>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <h4 className="mt-3 fw-bold">Quick Links</h4>
@@ -27,7 +27,7 @@ const Footter = () => {
                             </div>
                             <div className="ms-3">
                                 <p className="m-0">Phone Number</p>
-                                <p className="m-0">+888 (123) 869523</p>
+                                <p className="m-0">+971 54 409 9401</p>
                             </div>
                         </div>
                         <div className="d-flex align-items-center mt-4">
@@ -36,7 +36,7 @@ const Footter = () => {
                             </div>
                             <div className="ms-3">
                                 <p className="m-0">Email Address</p>
-                                <p className="m-0">abc@gmail.com</p>
+                                <p className="m-0">info@mgaxtechnicalworks.ae</p>
                             </div>
                         </div>
                         <div className="d-flex align-items-center mt-4">
@@ -45,7 +45,7 @@ const Footter = () => {
                             </div>
                             <div className="ms-3">
                                 <p className="m-0">Location</p>
-                                <p className="m-0">1058 Helton Ave, Berlin.</p>
+                                <p className="m-0">Wearhouse 15, Street 24, <br /> Al Quoz, Industrial Area 4.</p>
                             </div>
                         </div>
                     </div>

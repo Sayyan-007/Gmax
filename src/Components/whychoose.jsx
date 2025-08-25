@@ -2,9 +2,9 @@ const Whychoose=()=>{
     return(
         <div className="container-fluid py-4">
             <div className="container">
-                <div className="row align-items-center">
+                <div className="row justify-content-center align-items-center">
                     <p style={{ color: "#906E50" }} className=" text-center m-0">Why Choose Us</p>
-                    <h2 className="fw-bold text-center ">Why Choose GMAX</h2>
+                    <h2 className="fw-bold text-center ">Why Choose MGAX</h2>
                     <div className="col-lg-6">
                         <div className="d-flex justify-content-between align-items-center">
                             <div>
@@ -34,7 +34,7 @@ const Whychoose=()=>{
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6">
+                    {/* <div className="col-lg-6">
                         <div className="row align-items-center">
                             <div className="col-lg-6">
                                 image
@@ -44,7 +44,7 @@ const Whychoose=()=>{
                                 <div className="row">image</div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

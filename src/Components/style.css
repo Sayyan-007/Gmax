@@ -30,7 +30,7 @@
 .scroll-container::-webkit-scrollbar {
   display: none; /* Chrome, Safari */
 }
-.mainscroll-container :: ::-webkit-scrollbar{
+.mainscroll-container ::-webkit-scrollbar {
   display: none;
 }
 .mainscroll-container {
