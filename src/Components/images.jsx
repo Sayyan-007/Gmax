@@ -1,48 +1,38 @@
 const Images=()=>{
+
+      const imageSources = [
+        "/image2.webp",
+        "/image3.webp",
+        "/image4.webp",
+        "/image5.webp",
+        "/image6.webp",
+        "/image7.webp",
+        "/image9.webp",
+        "/image10.webp",
+        "/image11.webp",
+        "/image12.webp",
+        "/image13.webp",
+        "/image14.webp",
+        "/image15.webp",
+
+    ];
     return(
         <div className="container-fluid">
             <div className="container py-5">
                 <div className="row text-center flex-nowrap overflow-scroll scroll-container">
-                    <div className="col-lg-3 col-md-5 col-sm-8">
-                        <img src="/image2.webp" className="mw-100" width={300} alt="" />
-                    </div>
-                    <div className="col-lg-3 col-md-5 col-sm-8">
-                        <img src="/image3.webp" className="mw-100" width={300} alt="" />
-                    </div>
-                    <div className="col-lg-3 col-md-5 col-sm-8">
-                        <img src="/image4.webp" className="mw-100" width={300} alt="" />
-                    </div>
-                    <div className="col-lg-3 col-md-5 col-sm-8">
-                        <img src="/image5.webp" className="mw-100" width={300} alt="" />
-                    </div>
-                    <div className="col-lg-3 col-md-5 col-sm-8">
-                        <img src="/image6.webp" className="mw-100" width={300} alt="" />
-                    </div>
-                    <div className="col-lg-3 col-md-5 col-sm-8">
-                        <img src="/image7.webp" className="mw-100" width={300} alt="" />
-                    </div>
-                    <div className="col-lg-3 col-md-5 col-sm-8">
-                        <img src="/image9.webp" className="mw-100" width={300} alt="" />
-                    </div>
-                    <div className="col-lg-3 col-md-5 col-sm-8">
-                        <img src="/image10.webp" className="mw-100" width={300} alt="" />
-                    </div>
-                    <div className="col-lg-3 col-md-5 col-sm-8">
-                        <img src="/image11.webp" className="mw-100" width={300} alt="" />
-                    </div>
-                    <div className="col-lg-3 col-md-5 col-sm-8">
-                        <img src="/image12.webp" className="mw-100" width={300} alt="" />
-                    </div>
-                    <div className="col-lg-3 col-md-5 col-sm-8">
-                        <img src="/image13.webp" className="mw-100" width={300} alt="" />
-                    </div>
-                    <div className="col-lg-3 col-md-5 col-sm-8">
-                        <img src="/image14.webp" className="mw-100" width={300} alt="" />
-                    </div>
-                    <div className="col-lg-3 col-md-5 col-sm-8">
-                        <img src="/image15.webp" className="mw-100" width={300} alt="" />
-                    </div>
-                </div>
+          {imageSources.map((src, index) => (
+            <div key={index} className="col-lg-3 col-md-5 col-sm-6 col-11">
+              <img
+                src={src}
+                className="mw-100"
+                width={300}
+                alt={`gallery-${index + 1}`}
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          ))}
+        </div>
             </div>
         </div>
     )

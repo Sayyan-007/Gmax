@@ -35,8 +35,8 @@ const Footter = () => {
                                 <img src="/mail.webp" className="mw-100" alt="" />
                             </div>
                             <div className="ms-3">
-                                <p className="m-0">Email Address</p>
-                                <p className="m-0">info@mgaxtechnicalworks.ae</p>
+                                <p className="m-0">Email Address </p>
+                                <p className="m-0" >mgaxtechnicalworksllc<br/>@gmail.com</p>
                             </div>
                         </div>
                         <div className="d-flex align-items-center mt-4">
