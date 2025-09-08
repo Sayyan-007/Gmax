@@ -15,18 +15,8 @@ const Service=()=>{
                             <img src="/homeservice.webp" alt="" />
                         </div>
                         <div>
-                            <h5 className="fw-bold">Home Interior Design</h5>
-                            <p className="p2">The company specializes in modern, stylish, and functional home interior design solutions.</p>
-                            <Link className="nav-link" to='/gallery'><p className="p2 fw-bold">Read More <FaArrowRight className="mb-1"/></p></Link>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 d-flex gap-3 text-start p-3 ">
-                        <div>
-                            <img src="/homeservice.webp" alt="" />
-                        </div>
-                        <div>
-                            <h5 className="fw-bold">Home Exterior Design</h5>
-                            <p className="p2">Offers creative and durable home exterior design solutions tailored for modern lifestyle needs.</p>
+                            <h5 className="fw-bold">Residential Interior Design</h5>
+                            <p className="p2">The company specializes in modern, stylish, and functional Residential interior design solutions.</p>
                             <Link className="nav-link" to='/gallery'><p className="p2 fw-bold">Read More <FaArrowRight className="mb-1"/></p></Link>
                         </div>
                     </div>
@@ -37,6 +27,16 @@ const Service=()=>{
                         <div>
                             <h5 className="fw-bold">2D/3D Design Layout</h5>
                             <p className="p2">Provides precise and visually engaging 2D/3D design layouts for effective project visualization.</p>
+                            <Link className="nav-link" to='/gallery'><p className="p2 fw-bold">Read More <FaArrowRight className="mb-1"/></p></Link>
+                        </div>
+                    </div>
+                    <div className="col-lg-4 col-md-6 d-flex gap-3 text-start p-3 ">
+                        <div>
+                            <img src="/homeservice.webp" alt="" />
+                        </div>
+                        <div>
+                            <h5 className="fw-bold">Villa Exterior Design</h5>
+                            <p className="p2">Offers creative and durable Villa exterior design solutions tailored for modern lifestyle needs.</p>
                             <Link className="nav-link" to='/gallery'><p className="p2 fw-bold">Read More <FaArrowRight className="mb-1"/></p></Link>
                         </div>
                     </div>
@@ -55,8 +55,8 @@ const Service=()=>{
                             <img src="/modern.webp" alt="" />
                         </div>
                         <div>
-                            <h5 className="fw-bold">Modern Home Interior</h5>
-                            <p className="p2">Creates modern home interiors blending elegance, functionality, and personalized design aesthetics seamlessly.</p>
+                            <h5 className="fw-bold">Modern Apartment Interior</h5>
+                            <p className="p2">Creates modern Apartment interiors blending elegance, functionality, and personalized design aesthetics seamlessly.</p>
                             <Link className="nav-link" to='/gallery'><p className="p2 fw-bold">Read More <FaArrowRight className="mb-1"/></p></Link>
                         </div>
                     </div>
