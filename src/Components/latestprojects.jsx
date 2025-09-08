@@ -14,13 +14,13 @@ const Latestprojects=()=>{
                 <div className="row text-center  text-md-start">
                     <div className="col-md-6 p-3">
                         <img src="/project 01.webp" className="rounded-2 mw-100" style={{width:"250px"}} alt="" />
-                        <h4 className="fw-bold mt-3">Home Interior</h4>
-                        <p className="p2">Elegant designs that redefine home interiors.</p>
+                        <h4 className="fw-bold mt-3">Villa Interior</h4>
+                        <p className="p2">Elegant designs that redefine Villa interiors.</p>
                     </div>
                     <div className="col-md-6 p-3">
                         <img src="/project 03.webp" className="rounded-2 mw-100" style={{width:"250px"}} alt="" />
-                        <h4 className="fw-bold mt-3">Living Home Decor</h4>
-                        <p className="p2">Stylish living room crafted with elegance.</p>
+                        <h4 className="fw-bold mt-3">Restaurant Decor</h4>
+                        <p className="p2">Stylish Restaurant crafted with elegance.</p>
                     </div>
                     <div className="col-md-6 p-3">
                         <img src="/project 04.webp" className="rounded-2 mw-100" style={{width:"250px"}} alt="" />
@@ -29,7 +29,7 @@ const Latestprojects=()=>{
                     </div>
                     <div className="col-md-6 p-3">
                         <img src="/project 02.webp" className="rounded-2 mw-100" style={{width:"250px"}} alt="" />
-                        <h4 className="fw-bold mt-3">Home Studio Interior</h4>
+                        <h4 className="fw-bold mt-3">Shop Work Space Interior</h4>
                         <p className="p2">Creative vibes in your studio corner.</p>
                     </div>
                 </div>
