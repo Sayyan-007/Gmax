@@ -56,7 +56,7 @@ const Service=()=>{
                         </div>
                         <div>
                             <h5 className="fw-bold">Modern Apartment Interior</h5>
-                            <p className="p2">Creates modern Apartment interiors blending elegance, functionality, and personalized design aesthetics seamlessly.</p>
+                            <p className="p2">Creates Apartment interiors blending elegance, functionality, and personalized design aesthetics seamlessly.</p>
                             <Link className="nav-link" to='/gallery'><p className="p2 fw-bold">Read More <FaArrowRight className="mb-1"/></p></Link>
                         </div>
                     </div>

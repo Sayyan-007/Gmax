@@ -1,5 +1,5 @@
-import { FaFacebook, FaHome, FaInstagramSquare, FaLocationArrow } from "react-icons/fa"
-import { FaInstagram, FaPhotoFilm, FaSquareInstagram } from "react-icons/fa6"
+import { FaFacebook, FaHome, FaInstagramSquare, FaLocationArrow, FaWhatsapp, FaWhatsappSquare } from "react-icons/fa"
+import { FaInstagram, FaPhotoFilm, FaSquareInstagram, FaSquareWhatsapp } from "react-icons/fa6"
 import { Link } from "react-router-dom"
 
 const Footter = () => {
@@ -51,7 +51,7 @@ const Footter = () => {
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <h4 className="mt-3 fw-bold">Social Media</h4>
-                        <div className="d-flex align-items-center mt-4">
+                        {/* <div className="d-flex align-items-center mt-4">
                             <div>
                                 <FaFacebook className="fs-4" />
                             </div>
@@ -59,14 +59,23 @@ const Footter = () => {
                                 <p className="m-0">FaceBook</p>
                                 <p className="m-0">MgaxTech</p>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="d-flex align-items-center mt-4">
                             <div>
                                 <FaSquareInstagram className="fs-4" />
                             </div>
                             <div className="ms-3">
-                                <p className="m-0">Instagram</p>
-                                <p className="m-0">Mgax_Tech</p>
+                                <a className="nav-link" href="https://www.instagram.com/mgax_twllc" target="_blank">Instagram</a>
+                                <p className="m-0">mgax_twllc</p>
+                            </div>
+                        </div>
+                        <div className="d-flex align-items-center mt-4">
+                            <div>
+                                <FaWhatsappSquare className="fs-4" />
+                            </div>
+                            <div className="ms-3">
+                                <a className="nav-link" href="https://wa.me/971544099401" target="_blank">Whats App</a>
+                                <p className="m-0">971544099401</p>
                             </div>
                         </div>
                     </div>
